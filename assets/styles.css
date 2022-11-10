@@ -43,3 +43,35 @@ a {
 .main-head {
   background: #131c27;
 }
+
+nav {
+  display: flex;
+  width: 90%;
+  min-height: 10vh;
+  padding: 2rem;
+  margin: auto;
+  align-items: center;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  color: white;
+  flex: 2 1 40rem;
+}
+
+.hero {
+  min-height: 90vh;
+  background: url("/img/pexels-quintin-gellar-313782.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 500px;
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+}
