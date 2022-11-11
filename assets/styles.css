@@ -105,6 +105,26 @@ nav ul {
   padding: 5rem;
 }
 
+/* LOCATIONS SECTION */
+
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("/img/pexels-flo-dahm-699466.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 500px;
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* MEDIA QUARY  */
 @media screen and (max-width: 932px) {
   html {
     font-size: 45%;
