@@ -124,7 +124,22 @@ nav ul {
   text-align: center;
 }
 
-/* MEDIA QUARY  */
+.locations-head {
+  width: 90%;
+  margin: auto;
+}
+
+.locations-head h2 {
+  padding: 1rem 0rem;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5rem;
+}
+
+.locations-head h3 {
+  padding: 4rem 0rem;
+}
+
+/* MOBILE RESPONSE // MEDIA QUARY  */
 @media screen and (max-width: 932px) {
   html {
     font-size: 45%;
