@@ -54,7 +54,6 @@ button {
   cursor: pointer;
   transition: background 0.5s ease-in-out;
   animation: buttonAnimation 2s infinite alternate;
-  border-radius: 2rem;
 }
 
 button:hover {
@@ -147,6 +146,40 @@ nav ul {
   padding: 4rem 0rem;
 }
 
+/* BENEFITS SECTION */
+.benefits-head {
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.benefits-head h3 {
+  padding: 1rem;
+}
+
+.card {
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  box-shadow: 0px 10px 10px black;
+}
+
+.card img {
+  height: 100px;
+}
 /* @Keyframe Animation */
 
 @keyframes buttonAnimation {
