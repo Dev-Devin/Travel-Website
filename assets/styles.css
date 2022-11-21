@@ -52,6 +52,14 @@ button {
   font-size: 1.8rem;
   border-radius: 4rem;
   cursor: pointer;
+  transition: background 0.5s ease-in-out;
+  animation: buttonAnimation 2s infinite alternate;
+  border-radius: 2rem;
+}
+
+button:hover {
+  background-color: #b04a13;
+  font-size: 2.6rem;
 }
 /* Nav Section with HERO */
 
@@ -137,6 +145,20 @@ nav ul {
 
 .locations-head h3 {
   padding: 4rem 0rem;
+}
+
+/* @Keyframe Animation */
+
+@keyframes buttonAnimation {
+  0% {
+    background: red;
+  }
+  25% {
+    background: rgb(35, 98, 119);
+  }
+  100% {
+    background: rgb(99, 35, 119);
+  }
 }
 
 /* MOBILE RESPONSE // MEDIA QUARY  */
